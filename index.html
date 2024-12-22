@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TypeScript</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="title">TypeScript</h2>
+        <div class="top">
+            <div class="top_card">
+                <p class="card_title">Array</p>
+                <p class="function">let num: string [ ] = ['20', '30']</p>
+                <p class="rate"></p>
+            </div>
+            <div class="top_card">
+                <p class="card_title">Object</p>
+                <p class="function">
+                    interface CartType {
+                    title: string
+                    price: number
+                    }
+                    const car: CartType = {
+                    title: 'hello',
+                    price: 100
+                    }
+                </p>
+                <p class="rate"></p>
+            </div>
+            <div class="top_card">
+                <p class="card_title">Tuple</p>
+                <p class="function">let arr: [string, number, boolean] = ['', 1, true]</p>
+                <p class="rate"></p>
+            </div>
+            <div class="top_card">
+                <p class="card_title">Union</p>
+                <p class="function">let data: null | number = null data = 22</p>
+                <p class="rate"></p>
+            </div>
+        </div>
+        <div class="center">
+            <div class="center_card">
+                <p class="card_title">Any</p>
+                <p class="function">
+                    let optional: any = 9
+                    optional = 'hello'
+                    optional = false
+                    optional = 55
+                </p>
+                <p class="rate"></p>
+            </div>
+            <div class="center_card">
+                <p class="card_title">Enum</p>
+                <p class="function">
+                    enum colors {
+                    red = 'red',
+                    green = 'green',
+                    blue = 'blue',
+                    yellow = 'yellow'
+                    }
+                </p>
+                <p class="rate"></p>
+            </div>
+            <div class="center_card">
+                <p class="card_title">Function</p>
+                <p class="function">
+                    function addNumber (a: number, b: number): string {
+                    return a * b + ' usd'
+                    }
+                </p>
+                <p class="rate"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js">
+
+    </script>
+</body>
+
+</html>
